@@ -12,7 +12,7 @@ addEventListener("DOMContentLoaded",()=>{
 
 
 function cambiarColorUno(){
-    let color="bg-indigo-500"
+    let color="bg-indigo-300"
     
 
     document.body.classList.toggle(color);
@@ -27,7 +27,7 @@ boton1El.addEventListener("click",()=>{
 })
 
 function cambiarColorDos(){
-    let color="bg-green-500"
+    let color="bg-green-300"
     
 
     document.body.classList.toggle(color);
@@ -40,6 +40,45 @@ function cambiarColorDos(){
 boton2El.addEventListener("click",()=>{
     cambiarColorDos()
 })
+
+
+function cambiarColortres(){
+    let color="bg-red-300"
+    
+
+    document.body.classList.toggle(color);
+
+   
+
+
+}
+
+boton3El.addEventListener("click",()=>{
+    cambiarColortres()
+})
+
+
+function cambiarColorcuatro(){
+    let color="bg-yellow-200"
+    
+
+    document.body.classList.toggle(color);
+
+   
+
+
+}
+
+boton4El.addEventListener("click",()=>{
+    cambiarColorcuatro()
+})
+
+    
+
+    
+
+
+
 
 
 
